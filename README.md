@@ -27,11 +27,11 @@ Or you could just run server and client 👻
 How to run
 ----------
 
-Two run server
+To run server
 
     go run server/main.go
 
-And then you need a separate terminal session for client
+Then you need a separate terminal session for client
 
     go run client/main.go
 
