@@ -34,3 +34,9 @@ Two run server
 And then you need a separate terminal session for client
 
     go run client/main.go
+
+
+What's next?
+-------------
+
+Please, try this tutorial https://grpc.io/docs/languages/go/basics/
