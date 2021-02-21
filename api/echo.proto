@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option go_package = "github.com/mp-hl-2021/grpc-example;api";
+
+package echo;
+
+service Echo {
+  rpc Do(EchoRequest) returns (EchoReply) {}
+}
+
+message EchoRequest {
+  string line = 1;
+  int32 num = 2;
+}
+
+message EchoReply {
+  string echo_line = 1;
+}
